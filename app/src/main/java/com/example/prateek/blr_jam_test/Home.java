@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
 
@@ -17,6 +18,9 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        TextView textView = (TextView) findViewById(R.id.demo);
+        textView.setText("Some text");
 
     }
 
