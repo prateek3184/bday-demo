@@ -22,7 +22,8 @@
         android:textSize="@dimen/birthday_text_size"
         android:textColor="@color/colorWhite"
         android:fontFamily="sans-serif-light"
-        android:textIsSelectable="true"/>
+        android:textIsSelectable="true"
+        android:paddingLeft="8dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,6 +34,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:textColor="@color/colorWhite"
-        android:textIsSelectable="true"/>
+        android:textIsSelectable="true"
+        android:paddingRight="8dp"/>
 
 </RelativeLayout>
