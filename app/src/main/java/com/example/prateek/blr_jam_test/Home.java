@@ -19,8 +19,7 @@ public class Home extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        TextView textView = (TextView) findViewById(R.id.demo);
-        textView.setText("Some text");
+
 
     }
 

@@ -11,35 +11,28 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:src="@drawable/androidparty" />
-
-    <TextView
-        android:id="@+id/demo"
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Demo Text View" />
+        android:src="@drawable/androidparty"
+        android:layout_weight="1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
         android:text="Happy Birthday, Sange!"
+        android:textSize="@dimen/birthday_text_size"
         android:textColor="@color/colorWhite"
-        android:textIsSelectable="true"
-        android:textSize="@dimen/birthday_text_size" />
+        android:fontFamily="sans-serif-light"
+        android:textIsSelectable="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="From, Prateek!"
+        android:textSize="@dimen/birthday_text_size"
+        android:fontFamily="sans-serif-light"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:fontFamily="sans-serif-light"
-        android:text="From, Prateek!"
         android:textColor="@color/colorWhite"
-        android:textIsSelectable="true"
-        android:textSize="@dimen/birthday_text_size" />
+        android:textIsSelectable="true"/>
 
 </RelativeLayout>
